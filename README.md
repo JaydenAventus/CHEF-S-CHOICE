@@ -1,79 +1,146 @@
-# CHEF-S-CHOICE
-Aventus project opdracht
-# Hey, I'm Jayden! 👋
+# 👨‍🍳 CHEF'S CHOICE - Workshop Website
 
-18-year-old software developer in the making, grocery store enthusiast by day, code wizard by night. Welcome to my corner of GitHub!
+A modern, interactive workshop website built for culinary enthusiasts. This project showcases a professional platform for exploring recipes, joining cooking classes, and connecting with a passionate culinary community.
 
-## 🎮 About Me
+## 📋 Project Overview
 
-- 🎓 Currently studying to become a software developer (formal education in progress)
-- 💻 Passionate about **front-end development** and building beautiful, intuitive user interfaces
-- 🤝 Strong believer in **teamwork** – I thrive when collaborating with others to create something amazing
-- 🛒 Currently building **CHEF'S CHOICE**, an ambitious webshop project
-- 💼 Balancing life as a part-time grocery store employee while pursuing my passion for coding
-- 👨‍👩‍👧‍👦 Part of a big, supportive family that keeps me grounded
-- 🎯 Not the biggest fan of traditional school, but obsessed with learning through building real projects
+**CHEF'S CHOICE** is a front-end focused workshop website project that demonstrates core web development skills including responsive design, user authentication workflows, and interactive content management. The site is designed to be user-friendly and visually appealing for visitors interested in culinary arts and cooking workshops.
 
-## 🎯 What I'm Passionate About
+### 🎯 Purpose
 
-- 🎮 **Game Development** – I'm fascinated by game mechanics, UI design, and creating immersive experiences
-- 🔫 **Airsoft** – When I'm not coding, I'm probably geared up and ready for action!
-- 🎨 **Front-End Development** – Creating responsive, clean, and user-friendly interfaces
-- 🤝 **Teamwork** – I love working with others, bouncing ideas around, and building together
-
-## 💪 Technical Skills
-
-- **Languages**: JavaScript, HTML, CSS, React
-- **Frontend**: Responsive Design, UI/UX, React Components, Tailwind CSS
-- **Tools & Platforms**: Git, GitHub, VS Code
-- **Currently Learning**: Full-stack development, backend technologies
-
-## 📌 Featured Projects
-
-### 🛒 CHEF'S CHOICE
-A webshop project I'm actively developing. This is where I'm applying everything I'm learning about front-end development, user experience, and building real-world applications. Check it out to see my progress!
-
-**Status**: 🚧 In Development
+This project was created as part of the Aventus curriculum to build a practical, real-world web application that combines HTML, CSS, and JavaScript to create a functional and attractive website.
 
 ---
 
-## 🎓 My Learning Journey
+## 📁 File Structure
 
-I'm not your typical student – I learn best by **doing**. Rather than memorizing theory, I get excited about:
-- Building actual projects that solve real problems
-- Collaborating with developers who challenge me to improve
-- Experimenting with new technologies and frameworks
-- Creating things that people actually want to use
+### HTML Pages
+- **`index.html`** - Main landing page featuring the homepage with hero section, featured content, and site navigation
+- **`recipes.html`** - Recipe showcase page displaying culinary recipes and cooking techniques
+- **`classes.html`** - Workshop/classes listing page with information about cooking sessions and courses
+- **`team.html`** - Team page introducing the instructors and staff behind the workshop
+- **`login.html`** - User login page for registered members
+- **`signup.html`** - User registration page for new members to create accounts
 
-## 🌱 What's Next?
-
-- 🎮 Dive deeper into game development and interactive experiences
-- 🚀 Complete CHEF'S CHOICE and launch it
-- 🤖 Explore backend technologies to become a full-stack developer
-- 🌐 Work on more collaborative projects and open-source contributions
-- 🎯 Build a portfolio that showcases my growth and skills
-
-## 🤝 Let's Connect!
-
-I'm always interested in:
-- Collaborating on projects (especially anything **game-related**)
-- Discussing front-end best practices and design patterns
-- Brainstorming ideas for new projects
-- Learning from developers who are further along than me
-- Finding teammates who are as passionate about building as I am
-
-Got an idea? Need a front-end developer for your team? Or just want to chat about games and code? **Feel free to reach out!**
+### Styling & Scripts
+- **`styles.css`** - Main stylesheet containing all responsive design rules and visual styling (9.7% of codebase)
+- **`scripts.js`** - JavaScript functionality for interactive features and form handling (4.9% of codebase)
 
 ---
 
-## 💡 Fun Facts
+## 🛠️ Tech Stack
 
-- 🛒 I can probably organize a grocery store shelf faster than I can write bug-free code (still working on the second one!)
-- 👨‍👩‍👧‍👦 Family game nights are my favorite (both video games AND board games)
-- 🎯 My goal: Build games that people love and change careers doing what I'm passionate about
+- **HTML** (85.4%) - Semantic markup for page structure
+- **CSS** (9.7%) - Responsive styling and layout
+- **JavaScript** (4.9%) - Interactive features and user interactions
 
 ---
 
-**Thanks for stopping by!** If you find my projects interesting or just want to connect, don't hesitate to reach out. Let's build something amazing together! 🚀
+## ✨ Key Features
 
-⭐ Feel free to star my repositories if you find them useful!
+- 🏠 **Responsive Homepage** - Eye-catching landing page with navigation menu
+- 📖 **Recipe Gallery** - Browse and explore culinary recipes
+- 🎓 **Workshop Classes** - View available cooking classes and workshops
+- 👥 **Team Profiles** - Meet the experienced instructors
+- 🔐 **User Authentication** - Login and signup functionality for member access
+- 📱 **Mobile-Friendly** - Fully responsive design for all device sizes
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- A modern web browser (Chrome, Firefox, Safari, Edge)
+- No server-side dependencies required for basic functionality
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/JaydenAventus/CHEF-S-CHOICE.git
+cd CHEF-S-CHOICE
+```
+
+2. Open in your browser:
+- Simply open `index.html` in your preferred web browser
+- Or use a local server (recommended):
+```bash
+# Using Python 3
+python -m http.server 8000
+
+# Or using Node.js http-server
+npx http-server
+```
+
+3. Navigate to `http://localhost:8000` and start exploring!
+
+---
+
+## 📖 Usage
+
+- **Browse Recipes**: Visit the Recipes page to discover cooking techniques and ingredients
+- **Explore Classes**: Check out available workshops on the Classes page
+- **Meet the Team**: Learn about instructors on the Team page
+- **Create Account**: Sign up for member-exclusive content
+- **Login**: Access your profile with existing credentials
+
+---
+
+## 🎨 Design Highlights
+
+- Clean, modern interface with intuitive navigation
+- Consistent color scheme and typography throughout
+- Responsive layout that adapts to desktop, tablet, and mobile screens
+- Interactive elements for enhanced user engagement
+- Professional presentation suitable for a culinary workshop brand
+
+---
+
+## 📈 Current Status
+
+🚧 **In Active Development** - The project is continuously being improved with new features and enhancements.
+
+---
+
+## 🤝 Contributing
+
+This is a personal project, but feedback and suggestions are always welcome! Feel free to:
+- Report bugs or issues
+- Suggest new features
+- Provide design feedback
+- Share ideas for improvement
+
+---
+
+## 📚 Future Enhancements
+
+- [ ] Backend integration for user authentication and data persistence
+- [ ] Shopping cart functionality
+- [ ] Recipe rating and review system
+- [ ] Class booking system
+- [ ] User profile management
+- [ ] Email notifications
+- [ ] Admin panel for content management
+- [ ] Database integration for dynamic content
+
+---
+
+## 💡 Learning Outcomes
+
+This project demonstrates proficiency in:
+- Creating semantic HTML structures
+- Building responsive CSS layouts
+- Implementing interactive JavaScript features
+- Form design and validation concepts
+- Web design best practices
+- User experience (UX) principles
+
+---
+
+## 📞 Questions or Feedback?
+
+Feel free to reach out if you have any questions about this project or want to discuss web development!
+
+---
+
+**Happy Cooking! 👨‍🍳** - Explore, Learn, and Create Amazing Culinary Experiences with CHEF'S CHOICE
