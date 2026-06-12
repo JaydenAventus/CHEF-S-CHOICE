@@ -29,3 +29,12 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
 .class-card h3{margin:1rem 1rem 0;color:var(--brand)}
 .class-card p{margin:0.5rem 1rem;color:var(--muted)}
 .class-card .btn{margin:1rem;display:inline-block}
+.recipe-list{display:grid;gap:2rem;margin:2rem 0}
+.recipe-item{display:grid;grid-template-columns:280px 1fr;gap:1.5rem;border:1px solid #eee;padding:1.5rem;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,0.1);transition:box-shadow 0.3s}
+.recipe-item:hover{box-shadow:0 4px 16px rgba(0,0,0,0.15)}
+.recipe-item img{width:100%;height:200px;object-fit:cover;border-radius:6px;display:block}
+.recipe-item h3{margin:0 0 0.5rem 0;color:var(--brand);font-size:1.5rem}
+.recipe-origin{font-weight:600;color:var(--brand);margin:0 0 0.75rem 0}
+.recipe-description{margin:0;color:var(--muted);line-height:1.6}
+.recipe-content{display:flex;flex-direction:column;justify-content:center}
+@media (max-width:768px){.recipe-item{grid-template-columns:1fr}.recipe-item img{height:250px}}
